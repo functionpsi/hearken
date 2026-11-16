@@ -1,0 +1,38 @@
+{
+  "name": "hearken",
+  "version": "1.0.0",
+  "description": "Hearken — static, client-side-only song identifier (BYOK free-tier providers).",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint . --ext ts,tsx",
+    "format": "prettier --write \"**/*.{ts,tsx,css,md}\""
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.439.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.10",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.9",
+    "tailwindcss": "^3.4.13",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20",
+    "vitest": "^2.1.2",
+    "@testing-library/react": "^15.0.6",
+    "@testing-library/jest-dom": "^6.5.0",
+    "jsdom": "^24.1.3",
+    "eslint": "^9.12.0",
+    "prettier": "^3.3.3"
+  }
+}
